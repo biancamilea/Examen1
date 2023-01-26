@@ -1,5 +1,3 @@
-package circulo;
-
 import java.util.Scanner;
 
 public class Main2 {
@@ -14,8 +12,8 @@ public class Main2 {
 
         Circulo1 circulo1 = new Circulo1();
 
-        double area = Circulo1.calcularArea(r);
-        double longitud = Circulo1.calcularLongitud(r);
+        double area = Circulo1.calcularArea();
+        double longitud = Circulo1.calcularLongitud(20);
 
         System.out.println("Área: " + area);
         System.out.println("Longitud: " + longitud);

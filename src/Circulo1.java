@@ -1,5 +1,3 @@
-package circulo;
-
 public class Circulo1 {
     private double r;
 
@@ -11,9 +9,6 @@ public class Circulo1 {
         this.r = r;
     }
 
-    public Circulo1(Segment segmento){
-        this.r = segmento.getEndPoint().distanceSq(r);
-    }
     public double calcularArea (){
         double area = (r * r) * 3.14;
         return area;

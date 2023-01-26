@@ -1,5 +1,3 @@
-package circulo;
-
 import java.awt.*;
 
 public class Segment {
